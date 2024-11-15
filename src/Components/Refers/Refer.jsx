@@ -56,7 +56,7 @@ const Refer = () => {
                   "mwa",
                   "mda",
                   "usdt",
-                  "nxbt",
+                  "rev",
                   "address",
                   "privatekey",
                   "level1",
@@ -86,7 +86,7 @@ const Refer = () => {
                       type={
                         field.includes("Commission") ||
                         field === "usdt" ||
-                        field === "nxbt" ||
+                        field === "rev" ||
                         field === "mwa"
                           ? "number"
                           : "text"
